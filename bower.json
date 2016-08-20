@@ -1,0 +1,34 @@
+{
+  "name": "angular-theme-selector",
+  "version": "0.0.1",
+  "authors": [
+    "Gleb <git@gleb.nl>"
+  ],
+  "description": "UI component for theme selection, converted into an angular directive for your convenience.",
+  "main": [
+    "dist/theme-selector.js",
+    "dist/theme-selector.css"
+  ],
+  "moduleType": [],
+  "keywords": [
+    "angular",
+    "angularjs",
+    "directive",
+    "input",
+    "theme",
+    "select",
+    "selector"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/g1eb/angular-theme-selector",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.6"
+  }
+}
