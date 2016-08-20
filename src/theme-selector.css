@@ -1,3 +1,26 @@
 /**
  * Theme selector styles
  */
+.theme-selector.container {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.theme-selector .theme {
+  width: 50px;
+  z-index: 1;
+  transform: translateY(50px) rotateY(50deg) rotateZ(-25deg) scale(0.75);
+  transform-style: preserve-3d;
+  transition: all 500ms ease-out;
+}
+.theme-selector .theme :first-child {
+  box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.5);
+}
+.theme-selector .theme:hover {
+  width: 300px;
+  margin-left: 50px;
+  z-index: 10;
+  transform: scale(1) rotate(0);
+  transition-delay: 100ms;
+}

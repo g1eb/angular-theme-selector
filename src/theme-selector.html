@@ -1,2 +1,8 @@
-<div class="theme-selector">
+<div class="theme-selector container">
+  <div class="theme" ng-repeat="theme in themes">
+    <img ng-src="{{ theme.image_url }}"
+      ng-class="{'active': selected === theme}"
+      ng-click="selected = theme; scope.onSelect()"
+      alt="{{ theme.title }}" />
+  </div>
 </div>
