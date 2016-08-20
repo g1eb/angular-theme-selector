@@ -14,8 +14,12 @@
   <script>
     angular.module('ExampleApp', ['g1b.theme-selector']).
       controller('MainCtrl', function ($scope) {
-        $scope.themes = [];
-        $scope.selected;
+        $scope.themes = Array.apply(null, new Array(10)).map(function() {
+          return {
+            'title': 'Cat',
+            'image_url': 'http://placekitten.com/g/300/300/'
+          }
+        });
         $scope.print = function (theme) {
           console.log('theme', theme);
         };
