@@ -2,7 +2,7 @@
 
 This directive is designed to provide a graphical interface for selection of available themes.
 
-Themes can be substituted by content of any other type.
+Images are used in the demo but that can be substituted by content of any other type.
 
 ## Demo
 Click <a href="https://rawgit.com/g1eb/angular-theme-selector/master/" target="_blank">here</a> for a live demo.
@@ -28,7 +28,7 @@ angular.module('myApp', [
 3) Use directive in a view
 
 ```html
-<theme-selector themes="themes" selected="selected" on-select="print(now)"></theme-selector>
+<theme-selector themes="themes" selected="selected" on-select="print(selected)"></theme-selector>
 ```
 
 ### Attributes
