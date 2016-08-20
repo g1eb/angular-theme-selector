@@ -8,6 +8,7 @@
   justify-content: center;
 }
 .theme-selector .theme {
+  cursor: pointer;
   width: 50px;
   z-index: 1;
   transform: translateY(50px) rotateY(50deg) rotateZ(-25deg) scale(0.75);
@@ -17,7 +18,8 @@
 .theme-selector .theme :first-child {
   box-shadow: 0 0 15px 0 rgba(50, 50, 50, 0.5);
 }
-.theme-selector .theme:hover {
+.theme-selector .theme:hover,
+.theme-selector .theme.active {
   width: 300px;
   margin-left: 50px;
   z-index: 10;
