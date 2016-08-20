@@ -6,8 +6,8 @@
   ],
   "description": "UI component for theme selection, converted into an angular directive for your convenience.",
   "main": [
-    "dist/theme-selector.js",
-    "dist/theme-selector.css"
+    "dist/theme-selector.min.js",
+    "dist/theme-selector.min.css"
   ],
   "moduleType": [],
   "keywords": [
