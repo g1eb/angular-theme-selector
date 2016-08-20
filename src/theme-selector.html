@@ -2,7 +2,7 @@
   <div class="theme" ng-repeat="theme in themes">
     <img ng-src="{{ theme.image_url }}"
       ng-class="{'active': selected === theme}"
-      ng-click="selected = theme; scope.onSelect()"
+      ng-click="select(theme)"
       alt="{{ theme.title }}" />
   </div>
 </div>

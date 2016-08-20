@@ -18,6 +18,12 @@ directive('themeSelector', function () {
       return {
         pre: function preLink() {},
         post: function postLink(scope, element) {
+          scope.select = function (theme) {
+            scope.selected = theme;
+            scope.$$postDigest(function () {
+              scope.onSelect();
+            });
+          }
         }
       };
     }
