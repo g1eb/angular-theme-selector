@@ -9,9 +9,9 @@
 }
 .theme-selector .theme {
   cursor: pointer;
-  width: 50px;
+  width: 100px;
   z-index: 1;
-  transform: translateY(50px) rotateY(50deg) rotateZ(-25deg) scale(0.75);
+  transform: translateX(-50px) translateY(50px) rotateY(50deg) rotateZ(-25deg) scale(0.75);
   transform-style: preserve-3d;
   transition: all 500ms ease-out;
 }
@@ -21,7 +21,6 @@
 .theme-selector .theme:hover,
 .theme-selector .theme.active {
   width: 300px;
-  margin-left: 50px;
   z-index: 10;
   transform: scale(1) rotate(0);
   transition-delay: 100ms;
