@@ -1,6 +1,6 @@
 {
   "name": "angular-theme-selector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "UI component for theme selection, converted into an angular directive for your convenience.",
   "dependencies": {},
   "devDependencies": {
